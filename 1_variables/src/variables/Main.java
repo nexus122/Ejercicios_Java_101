@@ -16,22 +16,52 @@ public class Main {
             String ejercicio = read.nextLine();
 
             switch (ejercicio) {
-                case "p1" -> p1();
-                case "p2" -> p2();
-                case "p3" -> p3();
-                case "p4" -> p4();
-                case "p5" -> p5();
-                case "p6" -> p6();
-                case "p7" -> p7();
-                case "p8" -> p8();
-                case "p9" -> p9();
-                case "p10" -> p10();
-                case "p11" -> p11();
-                case "p12" -> p12();
-                case "p13" -> p13();
-                case "p14" -> p14();
-                case "exit" -> end = true;
-                default -> {
+                case "p1":
+                    p1();
+                    break;
+                case "p2":
+                    p2();
+                    break;
+                case "p3":
+                    p3();
+                    break;
+                case "p4":
+                    p4();
+                    break;
+                case "p5":
+                    p5();
+                    break;
+                case "p6":
+                    p6();
+                    break;
+                case "p7":
+                    p7();
+                    break;
+                case "p8":
+                    p8();
+                    break;
+                case "p9":
+                    p9();
+                    break;
+                case "p10":
+                    p10();
+                    break;
+                case "p11":
+                    p11();
+                    break;
+                case "p12":
+                    p12();
+                    break;
+                case "p13":
+                    p13();
+                    break;
+                case "p14":
+                    p14();
+                    break;
+                case "exit":
+                    end = true;
+                    break;
+                default: {
                     System.out.println("Este ejercicio no existe, prueba a poner alguno entre p1 y p14.");
                     System.out.println("Si lo que quieres es salir, escribe exit.");
                 }
