@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // 👨‍💻 Ejercicios de Java - Programación Estructurada
+        // 👨‍💻 Ejercicios de Java - Programación Estructurada -> Variables
         Boolean end = false;
         System.out.println("# INSTRUCCIONES");
         System.out.println("1. Los ejercicios son del p1 al p14");
