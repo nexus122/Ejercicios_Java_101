@@ -248,6 +248,21 @@ public class Main {
     }
     public static void p6(){
         System.out.println("--- Ejercicio 6 ---");
+        Scanner reader = new Scanner(System.in);
+        boolean end = false;
+        int numero;
+
+        while (!end){
+            System.out.println("Introduce una opción [1-5]");
+            numero = reader.nextInt();
+            switch(numero){
+                case 1:
+                    System.out.println("Has elegido la opcion 1");
+                    break;
+                case 2:
+                    System.out.println("Has elegido la opcion 2");
+            }
+        }
     }
     public static void p7(){
         System.out.println("--- Ejercicio 7 ---");
