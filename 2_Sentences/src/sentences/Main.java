@@ -4,20 +4,23 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         // 👨‍💻 Ejercicios de Java - Programación Estructurada -> Sentences
-        Boolean end = false;
-        int inicial = 1;
-        int final = 51;
+        boolean end = false;
+        int first = 1;
+        int last = 51;
+
         System.out.println("# INSTRUCCIONES");
-        System.out.println("1. Los ejercicios son del p1 al p14");
+        System.out.println("1. Los ejercicios son del p"+first+" al p"+last);
         System.out.println("2. Si quieres salir escribe -> exit");
         System.out.println("-----------------------------------");
+
         while (!end){
             Scanner read = new Scanner(System.in); // Esto nos sirve para poder pedir datos al usuario.
             System.out.print("Que ejercicio quieres ejecutar: ");
             String ejercicio = read.nextLine();
 
-            switch (ejercicio) {
+            switch (ejercicio.toLowerCase()) {
                 case "p1":
                     p1();
                     break;
@@ -29,6 +32,9 @@ public class Main {
                     break;
                 case "p4":
                     p4();
+                    break;
+                case "p4b":
+                    p4b();
                     break;
                 case "p5":
                     p5();
@@ -175,7 +181,7 @@ public class Main {
                     end = true;
                     break;
                 default:
-                    System.out.println("Este ejercicio no existe, prueba a poner alguno entre p1 y p14.");
+                    System.out.println("Este ejercicio no existe, prueba a poner alguno entre p"+first+" y p"+last+".");
                     System.out.println("Si lo que quieres es salir, escribe exit.");
                     break;
 
@@ -223,20 +229,39 @@ public class Main {
         System.out.println("--- Ejercicio 4 ---");
         Scanner reader = new Scanner(System.in);
         int i=0, numero, suma = 0;
-        do{
+
+        // Bucle do para pedir 5 veces el numero.
+        while(suma <100 && i < 5);{
             System.out.println("Introduce una cantidad: ");
             numero = reader.nextInt();
             suma = suma + numero;
-            if(suma > 100){
-                System.out.println("Te has pasado, "+ suma +" es mas grande que 100");
-            }else{
-                System.out.println("Resultado de la suma: "+ suma);
-            }
             i++;
-        }while(suma <100 && i < 5);
+        }
+
+        if(suma > 100){
+            System.out.println("Te has pasado, "+ suma +" es mas grande que 100");
+        }else{
+            System.out.println("Resultado de la suma: "+ suma);
+        }
+
+        // Resolución del ejercicio
         if(i == 5) System.out.println("Secuencia correcta");
         else System.out.println("Secuencia incorrecta");
+
+        // Enviamos un valor al siguiente ejercicio.
         return suma;
+    }
+    public static void p4b(){
+        Scanner reader = new Scanner(System.in);
+        int suma = 0;
+
+        for (int i = 0; i < 5; i++){
+            System.out.print("Introduce 1 numero, quedan "+ (5-i)+" por introducir: ");
+            suma += reader.nextInt();
+        }
+
+        if(suma > 100) System.out.println("La Suma es : "+suma+"y es mayor que 100!");
+        else System.out.println("La suma es: "+suma);
     }
     public static void p5(){
         System.out.println("--- Ejercicio 5 ---");
@@ -247,48 +272,44 @@ public class Main {
 
     }
     public static void p6(){
-        System.out.println("--- Ejercicio 6 ---");
-        Scanner reader = new Scanner(System.in);
-        boolean end = false;
-        int numero;
 
-        while (!end){
-            System.out.println("Introduce una opción [1-5]");
-            numero = reader.nextInt();
-            switch(numero){
-                case 1:
-                    System.out.println("Has elegido la opcion 1");
-                    break;
-                case 2:
-                    System.out.println("Has elegido la opcion 2");
-            }
-        }
     }
     public static void p7(){
+
         System.out.println("--- Ejercicio 7 ---");
+
     }
     public static void p8(){
         System.out.println("--- Ejercicio 8 ---");
     }
     public static void p9(){
         System.out.println("--- Ejercicio 9 ---");
+        int num = 37;
+        for(int i = 1; i <= 10; i++){
+            System.out.println(i+" x "+num+" = "+i*num);
+        }
     }
     public static void p10(){
         System.out.println("--- Ejercicio 10 ---");
     }
     public static void p11(){
+
         System.out.println("--- Ejercicio 11 ---");
     }
     public static void p12(){
+
         System.out.println("--- Ejercicio 12 ---");
     }
     public static void p13(){
+
         System.out.println("--- Ejercicio 13 ---");
     }
     public static void p14(){
+
         System.out.println("--- Ejercicio 14 ---");
     }
     public static void p15(){
+
         System.out.println("--- Ejercicio 15 ---");
     }
     public static void p16(){
@@ -326,6 +347,13 @@ public class Main {
     }
     public static void p27(){
         System.out.println("--- Ejercicio 27 ---");
+        Scanner reader = new Scanner(System.in);
+        int cont = 0;
+        for(int i = 0; i < 3; i++){
+            System.out.println("Escribe un numero");
+            double a = reader.nextInt();
+            if(a > 0) cont++;
+        }
     }
     public static void p28(){
         System.out.println("--- Ejercicio 28 ---");
@@ -338,30 +366,149 @@ public class Main {
     }
     public static void p31(){
         System.out.println("--- Ejercicio 31 ---");
+        Scanner reader = new Scanner(System.in);
+        long numero1, numero2, resultado=0;
+        String operador;
+        System.out.print("Introduce el primer número: ");
+        numero1 = reader.nextLong();
+        System.out.print("Introduce el segundo número: ");
+        numero2 = reader.nextLong();
+        System.out.print("Introduce el operador ( +, -, *, %, / ): ");
+        operador = reader.next();
+
+        if(operador.equals("+")) resultado = numero1+numero2;
+        if(operador.equals("-")) resultado = numero1-numero2;
+        if(operador.equals("*")) resultado = numero1*numero2;
+        if(operador.equals("%")) resultado = numero1%numero2;
+        if(operador.equals("/")) resultado = numero1/numero2;
+
+        if(resultado == 0) System.out.println("No se puede realizar la operaión.");
+        else System.out.println(numero1 +" "+operador+" "+numero2+" = "+ resultado);
+
     }
     public static void p32(){
         System.out.println("--- Ejercicio 32 ---");
+        Scanner reader = new Scanner(System.in);
+        boolean fin = false;
+        int numDado, intentos=0, numAleatorio = (int)((Math.random()*100)+1);
+        System.out.println("\u001B[35m"+"~~~¡ADIVINA!~~~"+"\u001B[0m");
+        while (!fin){
+            System.out.print("Dime un número del 1 al 100: ");
+            numDado = reader.nextInt();
+            intentos++;
+            if(numDado > numAleatorio) System.out.println("El numero es mas pequeño");
+            else if (numDado < numAleatorio) System.out.println("El numero es mas grande");
+            else{
+                System.out.println("¡Enhorabuena!, has acertado el número");
+                System.out.println("Nº de intentos: "+intentos);
+                System.out.println("¿Deseas continuar ? -> Escribe 'yes'");
+                String cont = reader.next();
+                if(cont.equals("yes")) fin = true;
+                else{
+                    numAleatorio = (int) ((Math.random()*100)+1);
+                    intentos = 0;
+                }
+            }
+        }
     }
     public static void p33(){
         System.out.println("--- Ejercicio 33 ---");
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Escribe un numero: ");
+        int a = reader.nextInt();
+        System.out.print("Escribe otro numero: ");
+        int b = reader.nextInt();
+        System.out.print("Escribe otro numero: ");
+        int c = reader.nextInt();
+
+        if((a==b) || (a==c) || (b==c)) System.out.println("Hay repericiones");
+        else System.out.println("No hay repeticiones");
+
     }
     public static void p34(){
         System.out.println("--- Ejercicio 34 ---");
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Escribe un numero: ");
+        int a = reader.nextInt();
+        System.out.print("Escribe otro numero: ");
+        int b = reader.nextInt();
+        System.out.print("Escribe otro numero: ");
+        int c = reader.nextInt();
+
+        int suma = 0;
+        if(a%5 == 0) suma+=a;
+        if(b%5 == 0) suma+=a;
+        if(c%5 == 0) suma+=a;
+
+        System.out.print("La suma es: "+ suma);
+
     }
     public static void p35(){
         System.out.println("--- Ejercicio 35 ---");
+        System.out.println("--- Ejercicio 34 ---");
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Escribe un numero: ");
+        int a = reader.nextInt();
+        System.out.print("Escribe otro numero: ");
+        int b = reader.nextInt();
+        System.out.print("Escribe otro numero: ");
+        int c = reader.nextInt();
+
+        int suma = 0;
+        if(a%5 == 0) suma+=a;
+        if(b%5 == 0) suma+=a;
+        if(c%5 == 0) suma+=a;
+
+        if(suma == 0) System.out.println("No hay ningun multiple de 5");
+        else System.out.println("Hay algun multiple de 5: "+ suma);
     }
     public static void p36(){
         System.out.println("--- Ejercicio 36 ---");
+        Scanner reader = new Scanner(System.in);
+
+        System.out.print("Escribe un numero: ");
+        int a = reader.nextInt();
+        System.out.print("Escribe otro numero: ");
+        int b = reader.nextInt();
+        System.out.print("Escribe otro numero: ");
+        int c = reader.nextInt();
+
+        if(a > 0){
+            if(b%7==0) System.out.println(b+" es multipo de 7");
+            if(c%7==0) System.out.println(c+" es multipo de 7");
+        }else if(a<0){
+            if(b > c) System.out.println(b+" "+c);
+            else System.out.println(c+" "+b);
+        }else System.out.println("La suma de los absolutos es: "+(b+c));
+
     }
     public static void p37(){
         System.out.println("--- Ejercicio 37 ---");
+        Scanner reader = new Scanner(System.in);
+        int sumaPares = 0, sumaImpares = 0;
+        for(int i = 0; i < 4; i++){
+            int num = reader.nextInt();
+            if(num%2==0) sumaPares+=num;
+            else sumaImpares+=num;
+        }
+
+        if(sumaPares>=(4*sumaImpares)) System.out.println("La suma de los pares supera oe es igual a 4 veces la suma de los impares.");
+        else System.out.println("La suma de los pares no supera ni es igual a 4 veces la suma de los impares.");
+
     }
     public static void p38(){
         System.out.println("--- Ejercicio 38 ---");
+        Scanner reader = new Scanner(System.in);
+        int a = reader.nextInt();
+        for(int i = 0; i < a; i++){
+            System.out.print(i+" ");
+            i++;
+        }
     }
     public static void p39(){
         System.out.println("--- Ejercicio 39 ---");
+        
+
     }
     public static void p40(){
         System.out.println("--- Ejercicio 40 ---");
@@ -397,6 +544,7 @@ public class Main {
         System.out.println("--- Ejercicio 50 ---");
     }
     public static void p51(){
+
         System.out.println("--- Ejercicio 51 ---");
     }
 }
