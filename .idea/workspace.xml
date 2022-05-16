@@ -1,43 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bb20da7-e82a-46bd-ac80-2ccfd409ed67" name="Changes" comment="Modificaciónes del primer switch">
-      <change afterPath="$PROJECT_DIR$/4_Vectores/4_Vectores.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_Vectores/src/vectores/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ascensor/Ascensor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ascensor/src/Ascensor/Ascensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ascensor/src/Ascensor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CuentaCorriente/CuentaCorriente.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CuentaCorriente/src/cc/CuentaCorriente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CuentaCorriente/src/cc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/POO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_1/Amphibian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_1/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_1/Frog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_1/Gat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_1/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_2/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_2/Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_2/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_2/Jerbu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_2/Ratolí.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_2/Rossegador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_2/Tricycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_2/Unicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_3/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_3/Derivada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/src/Ejercicio_3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pelota/Pelota.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pelota/src/Pelota/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tutorial_POO/Tutorial_POO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tutorial_POO/src/tutorial_poo/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tutorial_POO/src/tutorial_poo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tutorial_POO/src/tutorial_poo/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="0bb20da7-e82a-46bd-ac80-2ccfd409ed67" name="Changes" comment="Ejercicios de Programación Orientada a Objetos, en la carpeta POO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_Sentences/src/sentences/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/2_Sentences/src/sentences/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/POO/src/Ejercicio_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/POO/src/Ejercicio_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652183741325</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ejercicios de Programación Orientada a Objetos, en la carpeta POO">
+      <created>1652694152716</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652694152716</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +176,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Segundo Ejercicio" />
     <MESSAGE value="Modificaciónes del primer switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificaciónes del primer switch" />
+    <MESSAGE value="Ejercicios de Programación Orientada a Objetos, en la carpeta POO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios de Programación Orientada a Objetos, en la carpeta POO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

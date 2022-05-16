@@ -23,10 +23,16 @@ public class Main {
         gato1.correr(a,b);
 
         // Ejercicio 6
-        Amphibian frog1 = new Frog();
+        Frog frog1 = new Frog();
         frog1.moure();
         frog1.respirar();
         frog1.menjar();
+
+        // Con esto "disfrazamos" nuestra frog 1 de la clase Anfibio.
+        Amphibian am = frog1;
+        am.moure();
+        am.respirar();
+        am.menjar();
 
 
         // Ejercicio 7
