@@ -5,18 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bb20da7-e82a-46bd-ac80-2ccfd409ed67" name="Changes" comment="Ejercicios de Programación Orientada a Objetos, en la carpeta POO">
-      <change afterPath="$PROJECT_DIR$/DentistaUML/DentistaUML.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DentistaUML/src/dentista/Caries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DentistaUML/src/dentista/Factura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DentistaUML/src/dentista/Higiene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DentistaUML/src/dentista/LineaTratamiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DentistaUML/src/dentista/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DentistaUML/src/dentista/Ortodoncia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DentistaUML/src/dentista/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DentistaUML/src/dentista/RegistroPaciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML_2_Netflix/UML_2_Netflix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML_2_Netflix/src/netflix/Capitulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML_2_Netflix/src/netflix/Especial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML_2_Netflix/src/netflix/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML_2_Netflix/src/netflix/Personaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML_2_Netflix/src/netflix/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UML_2_Netflix/src/netflix/Temporada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_Dentista/2. Dentista. Examen-primavera-2011.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_Dentista/DentistaUML.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_Dentista/src/dentista/Caries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_Dentista/src/dentista/Factura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_Dentista/src/dentista/Higiene.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_Dentista/src/dentista/LineaTratamiento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_Dentista/src/dentista/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_Dentista/src/dentista/Ortodoncia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_Dentista/src/dentista/Paciente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML_Dentista/src/dentista/RegistroPaciente.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/juan-/Desktop/Java UML/Dentista",
+    "last_opened_file_path": "C:/Users/juan-/Desktop/Java UML/Netflix",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
