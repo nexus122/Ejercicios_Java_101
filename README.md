@@ -1,11 +1,18 @@
 # Ejercicios_Java_101
-<img src="https://mpng.subpng.com/20180605/vkg/kisspng-java-runtime-environment-programming-language-prog-java-5b16ff20784b91.6967505015282337604927.jpg"/>
-
+<img src="https://abdulkshahid.github.io/img/portfolio/javaGif.gif" style="width:100%"/>
 Ejercicios para aprender Java del curso Singulars 2022 de netmind.
 
-## Por hacer
-- [x] 1 Variables
-- [ ] 2 Sentencias
-- [ ] 3 Funciones
-- [ ] 4 Vectores
-- [ ] 5 Ejercicios Extra
+## Programación estructurada
+- 📁 1_Variables
+- 📁 2_Sentences
+- 📁 4_Vectores
+
+## POO (Programación Orientada a Objetos)
+- 📁 POO_1_Pelota
+- 📁 Poo_2_Ascensor
+- 📁 Poo_3_CuentaCorriente
+- 📁 Poo_4_Varios
+
+## UML
+- 📁 UML_1_Dentista
+- 📁 UML_2_Netflix
